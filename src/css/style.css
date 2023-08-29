@@ -1,0 +1,202 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .header {
+     background-image: url('/src/img/header-bg.jpg');
+     overflow-y: hidden;
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     background-position: center center;
+     background-size: cover;
+ }
+
+ .logo {
+     float: left;
+ }
+
+ .navbar {
+     float: right;
+ }
+
+ .navbar a {
+     margin-left: 2.1rem;
+     text-decoration: none;
+     color: #fff;
+     font-family: sans-serif;
+     letter-spacing: 0.0625em;
+ }
+
+ .logo img {
+     width: 60%;
+ }
+
+ .menu {
+
+     margin: 2.5rem 6rem 0 7rem;
+
+ }
+
+ .title {
+     text-align: center;
+     padding: 14rem 0 15.5rem 0;
+ }
+
+ .title-welcome {
+     color: #fff;
+     font-size: 2.5rem;
+     font-family: math;
+     font-style: italic;
+     margin-bottom: 1.2rem;
+ }
+
+ .sub-welcome {
+     font-size: 4.5rem;
+     font-weight: 700;
+     line-height: 4.5rem;
+     margin-bottom: 4rem;
+     color: WHITE;
+     font-family: system-ui;
+     letter-spacing: 1.1px;
+ }
+
+ .btn {
+     padding: 1.8rem 3.3rem;
+     color: white;
+     text-decoration: none;
+     border-radius: 0.5rem;
+     background-color: #ffc800;
+     font-family: sans-serif;
+     font-size: 1.2rem;
+     font-weight: 700;
+ }
+
+ /* service */
+ .service-title {
+     text-align: center;
+ }
+
+ .service-title h2 {
+     font-size: 2.7rem;
+     font-family: system-ui;
+     margin-top: 6rem;
+     color: #353a3f;
+     letter-spacing: 1px;
+     font-weight: 700;
+     margin-bottom: 1rem;
+ }
+
+ .service-title h3 {
+     font-size: 1.2rem;
+     font-weight: 500;
+     font-family: math;
+     font-style: italic;
+     margin-bottom: 4rem;
+     color: #6c757d;
+ }
+
+
+ .row-text-center {
+     text-align: center;
+     padding-bottom: 6rem;
+
+ }
+
+ .text-center img {
+     border-radius: 4rem;
+     width: 8rem;
+ }
+
+ .text-center {
+     display: inline-block;
+     width: 32%;
+ }
+
+ .text-center h4 {
+     color: #353a3f;
+     font-size: 1.7rem;
+     font-family: sans-serif;
+     margin-top: 1rem;
+ }
+
+ .text-center p {
+     color: #6c757d;
+     padding: 19px 41px 5px 41px;
+     font-size: 1.2rem;
+     line-height: 1.75rem;
+     font-family: math;
+ }
+
+ /* portfolio */
+
+ .portfolio {
+     background-color: rgb(248, 249, 250);
+     padding-bottom: 6rem;
+ }
+
+ .portfolio-title {
+     text-align: center;
+     padding: 1px;
+ }
+
+ .portfolio-title h2 {
+     font-size: 2.7rem;
+     font-family: system-ui;
+     margin-top: 6rem;
+     color: #353a3f;
+     letter-spacing: 1px;
+     font-weight: 700;
+     margin-bottom: 1rem;
+
+ }
+
+ .portfolio-title h3 {
+     font-size: 1.2rem;
+     font-weight: 500;
+     font-family: math;
+     font-style: italic;
+     margin-bottom: 4rem;
+     color: #6c757d;
+ }
+
+
+ .row-images {
+     text-align: center;
+     padding: 0px 20px 0px 20px;
+ }
+
+ .portfolio-item img {
+     width: 100%;
+ }
+
+ .portfolio-item {
+     display: inline-block;
+     width: 29%;
+     text-align: center;
+     background-color: white;
+     margin: 0 10px 0 10px;
+     margin-bottom: 2rem;
+ }
+
+ .prot-title {
+     padding: 1.5rem;
+ }
+
+ .prot-title h2 {
+     font-size: 2rem;
+     color: #353a3f;
+     font-weight: 700;
+     line-height: 1.5;
+     font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+ }
+
+
+ .prot-title h3 {
+     font-style: italic;
+     color: #6c757d;
+     font-size: 1.3rem;
+     font-weight: 400;
+     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+ }
